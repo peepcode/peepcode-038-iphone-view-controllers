@@ -308,6 +308,7 @@
 				GCC_PREFIX_HEADER = PeepCodeNews_Prefix.pch;
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-lhttpriot",
 					"-lxml2",
@@ -333,6 +334,7 @@
 				GCC_PREFIX_HEADER = PeepCodeNews_Prefix.pch;
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-lhttpriot",
 					"-lxml2",
@@ -374,6 +376,7 @@
 				GCC_PREFIX_HEADER = PeepCodeNews_Prefix.pch;
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_LDFLAGS = (
 					"-lhttpriot",
 					"-lxml2",
