@@ -297,7 +297,7 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.0/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
+				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.5/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
@@ -316,7 +316,7 @@
 				);
 				PRODUCT_NAME = PeepCodeNews;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos3.1;
 				TF_NEWS_API_URL = "http://news.peepcode.com";
 			};
 			name = Debug;
@@ -324,7 +324,7 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.0/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
+				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.5/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Geoffrey Grosenbach";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
@@ -341,6 +341,7 @@
 				);
 				PRODUCT_NAME = PeepCodeNews;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CD1F1B03-3E48-4552-ABEF-FDFFFA2F6956";
+				SDKROOT = iphoneos3.1;
 				TF_NEWS_API_URL = "http://news.peepcode.com";
 			};
 			name = Release;
@@ -363,7 +364,7 @@
 		75C78752104060E0004745CA /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.0/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
+				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.5/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Topfunky Corporation";
@@ -381,6 +382,7 @@
 				);
 				PRODUCT_NAME = PeepCodeNews;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A89DB967-506A-42DC-A1C5-8D0B47E43B2B";
+				SDKROOT = iphoneos3.1;
 				TF_NEWS_API_URL = "http://news.peepcode.com";
 			};
 			name = AdHoc;
